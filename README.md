@@ -10,4 +10,4 @@ Vitor Augusto de Faria Siebra | 42012061
  ||  Pedro dos Santos | 42024019  
 
 
-OBS.: Arquivos em ZIP devem ser descomprimidos
+OBS.: Arquivos em ZIP como < packages_build_dart_tool >, dentro da pasta - PraticasFlutter - devem ser descomprimidos
