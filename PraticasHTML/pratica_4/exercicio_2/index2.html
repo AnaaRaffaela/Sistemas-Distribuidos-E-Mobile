@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>Exercício 2</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Cadastro de Funcionário</h1>
+    <div class="form">
+      <div class="input_field">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome">
+      </div>
+      <div class="input_field">
+        <label for="email">E-mail:</label>
+        <input type="text" id="email">
+      </div>
+      <div class="input_field">
+        <label for="data_nascimento">Data de nascimento:</label>
+        <input type="text" id="data_nascimento">
+      </div>
+      
+      <div class="select_field">
+        <label for="escolaridade">Escolaridade</label>
+        <select id="escolaridade" name="escolaridade">
+          <option value="1">Incompleto</option>
+          <option value="2">Fundamental</option>
+          <option value="3">Ensino Médio</option>
+          <option value="4">Ensino Superior</option>
+        </select>
+      </div>
+
+      <div class="radio_field">
+        <label for="sexo">Sexo:</label>
+        <div>
+          <input type="radio" id="feminino" name="sexo" value="feminino">
+          <label for="feminino">Feminino</label>
+          <input type="radio" id="Masculino" name="sexo" value="Masculino">
+          <label for="Masculino">Masculino</label>
+        </div>
+      </div>
+
+      <div class="action">
+        <button id="limpar" onclick="limpar()">Limpar</button>
+        <button id="cadastrar" onclick="validaFormulario()">Cadastrar</button>
+      </div>
+    </div>
+  </div>
+  <div class="erros" id="erros"> 
+  </div>
+</body>
+</html>
+
+<script type="text/javascript" src="script2.js"></script>

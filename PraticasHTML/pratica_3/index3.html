@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .form {
+        background-color: orangered;
+        padding: 20px 20px 40px 20px;
+        width: 500px;
+      }
+
+      .form h1 {
+        margin: 0 0 35px 0;
+      }
+
+      .form .control_input {
+        margin: 10px 0;
+      }
+
+      .form label {
+        font-size: 18px;
+        margin: 5px;
+      }
+
+      .form input[type=text] {
+        padding: 10px;
+      }
+
+      .form input[type=button] {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 20px;
+        background-color: lightsalmon;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form">
+      <div>
+        <label for="nome">
+          Nome:
+        </label>
+        <input type="text" placeholder="informe seu nome">
+      </div>
+      <div class="control_input">
+        <label for="escolaridade">
+          Escolaridade:
+        </label>
+        <input type="radio" name="escolaridade" id="fundamental"><label for="huey">Fundamental</label>
+        <input type="radio" name="escolaridade" id=""><label for="medio">Médio</label>
+        <input type="radio" name="escolaridade" id=""><label for="superior">Superior</label>
+      </div>
+      <div class="control_input">
+        <label for="escolaridade">
+          Veículo:
+        </label>
+        <input type="checkbox" name="bicicleta" id="bicicleta"><label for="bicicleta">Bicicleta</label>
+        <input type="checkbox" name="moto" id="moto"><label for="moto">Moto</label>
+        <input type="checkbox" name="carro" id="carro"><label for="carro">Carro</label>
+      </div>
+      <input type="button" value="Enviar">
+    </form>
+  </body>
+</html>
